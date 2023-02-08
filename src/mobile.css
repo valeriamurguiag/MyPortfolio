@@ -1,0 +1,382 @@
+@media only screen and (max-device-width: 768px) {
+    .logo {
+        width: 300px;
+        margin-left: 15px;
+        height: 280px;
+        margin-top: -85px;
+    }
+
+    .logo2 {
+        height: 280px;
+        width: 300px;
+        margin-top: -85px;
+    }
+
+    .sections1 {
+        font-size: 37px;
+        right: 41%;
+    }
+
+    .sections2 {
+        font-size: 37px;
+        margin-right: 50px;
+    }
+
+    .sections3 {
+        font-size: 37px;
+        right: 23%;
+    }
+
+    .sections4 {
+        font-size: 37px;
+        right: 5%;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        margin-top: 550px;
+        margin-left: 120px;
+        height: 1450px;
+    }
+
+    .greeting {
+        font-size: 60px;
+        letter-spacing: 2px;
+    }
+
+    .frontend {
+        font-size: 47px;
+        margin-top: 16px;
+    }
+
+    .description {
+        width: 87%;
+        margin-top: 16px;
+        font-size: 47px;
+    }
+
+    .button {
+        width: 50%;
+        font-size: 38px;
+        margin-top: 95px;
+        margin-bottom: 95px;
+        border-radius: 40px;
+        padding: 15px;
+        font-weight: 600;
+    }
+
+    .button2 {
+        width: 50%;
+        font-size: 38px;
+        margin-top: 95px;
+        margin-bottom: 0px;
+        border-radius: 40px;
+        padding: 15px;
+        font-weight: 600;
+    }
+
+    .elem1 {
+        display: none;
+    }
+
+    .elem4 {
+        width: 55%;
+        top: 220px;
+        left: 430px;
+    }
+
+    .elem2 {
+        display: flex;
+        width: 1300px;
+        margin-left: -530px;
+        margin-top: -150px;
+    }
+
+    .education {
+        height: 4050px;
+        width: 1000px;
+    }
+
+    .educationText {
+        font-size: 60px;
+    }
+
+    .educationContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+        margin-top: 160px;
+        align-items: center;
+    }
+
+    .box1 {
+        height: auto;
+        padding: 80px;
+        border-radius: 50px;
+        width: 60%;
+        gap: 110px;
+        font-size: 40px;
+    }
+
+    .box-info {
+        gap: 30px;
+    }
+
+    .school-logo {
+        width: 35%;
+    }
+
+    .school-date {
+        gap: 25px;
+    }
+
+    .course-title {
+        margin-top: -50px;
+        text-align: center;
+    }
+
+    .school {
+        width: 280px;
+        font-size: 30px;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .date {
+        width: 280px;
+        color: #D9D9D9;
+        font-size: 30px;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .certificate {
+        width: 280px;
+        font-size: 30px;
+        margin-top: 25px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        padding: 15px;
+
+    }
+
+    .skills {
+        height: auto;
+        margin-bottom: 200px;
+        margin-top: 200px;
+    }
+
+    .skills-text {
+        font-size: 60px;
+        margin-top: 50px;
+    }
+
+    .skills-container {
+        margin-top: 190px;
+        gap: 55px;
+        margin-left: 40px;
+        margin-right: 40px;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .skills1 {
+        font-size: 30px;
+        border-radius: 30px;
+        width: 300px;
+        height: 320px;
+        gap: 30px;
+    }
+
+    .js-logo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .react-logo2 {
+        width: 130px;
+        height: 125px;
+    }
+
+    .node-logo {
+        width: 170px;
+        height: 110px;
+        background-color: transparent;
+    }
+
+    .firebase-logo {
+        width: 90px;
+        height: 130px;
+        background-color: transparent;
+    }
+
+    .jest-logo {
+        width: 90px;
+        height: 110px;
+        background-color: transparent;
+    }
+
+    .figma-logo {
+        width: 145px;
+        height: 120px;
+        background-color: transparent;
+    }
+    
+
+    .skills-lang {
+        font-size: 39px;
+    }
+
+    .elem4-2 {
+        position: absolute;
+        width: 40%;
+        margin-top: 120px;
+        left: 600px;
+        z-index: 3;
+    }
+
+    .projects {
+        height: auto;
+        width: 840px;
+    }
+
+    .header2 {
+        height: 50px;
+        width: 998px;
+    }
+
+    .header {
+        height: 120px;
+    }
+
+
+    .project-images {
+        width: 800px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .projects-text {
+        font-size: 60px;
+    }
+
+    .projects-description {
+        font-size: 40px;
+    }
+
+    .projects2 {
+        height: auto;
+        width: 840px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        height: auto;
+        padding: 70px;
+        align-items: center;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .projects-container2 {
+        flex-direction: column;
+        height: auto;
+        padding: 70px;
+        align-items: center;
+        width: 90%;
+    }
+    
+    .project-laptop {
+        width: 900px;
+    }
+
+    .project-caption {
+        flex-direction: column;
+        justify-content: center;
+        font-size: 35px;
+        width: 90%;
+    }
+
+    .project-technologies {
+        font-size: 32px;
+    }
+
+    li.project-technologies2 {
+        font-size: 35px;
+    }
+
+    .footer {
+        height: 800px;
+        gap: 25px;
+        width: 1000px;
+    }
+
+    .social {
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .linkedin-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .github-logo {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .mail-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .social-text {
+        margin-top: 33px;
+        font-size: 33px;
+    }
+
+    .division-line {
+        height: 1px;
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: -30px;
+    }
+
+    .credits-text {
+        font-size: 27px;
+        margin-top: 45px;
+    }
+
+    .projects-text2 {
+        font-size: 60px;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .project-images-container {
+        display: none;
+    }
+
+    .tech-features {
+        flex-direction: column;
+        width: 100%;
+        background-color: #21232C;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 55px;
+    }
+
+    .date2 {
+        width: 50%;
+        font-size: 38px;
+        margin-top: 95px;
+        margin-bottom: 95px;
+        border-radius: 40px;
+        padding: 15px;
+        font-weight: 600;
+    }
+}
