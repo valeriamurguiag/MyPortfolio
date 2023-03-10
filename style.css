@@ -1,0 +1,819 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #151644;
+}
+
+.elem4 {
+    position: absolute;
+    width: 15%;
+    top: 100px;
+    left: 700px;
+    z-index: 3;
+}
+
+.elem2 {
+    display: none;
+}
+
+.elem3 {
+    position: absolute;
+    width: 50%;
+    top: 575px;
+    margin-left: -1675px;
+    z-index: 1;
+}
+
+.elem1 {
+    position: absolute;
+    width: 20%;
+    top: 250px;
+    right: 170px;
+    animation-name: developer;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    z-index: 3;
+}
+
+@keyframes developer {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.header {
+    height: 60px;
+    display: flex;
+    width: 100%;
+    background-color: #151644;
+    z-index: 4;
+    position: fixed;
+    top: 0px;
+}
+
+.headerText {
+    height: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 10px;
+    margin-top: 20px;
+    justify-content: flex-end;
+    gap: 35px;
+}
+
+.logo {
+    height: 175px;
+    width: 200px;
+    margin-top: -60px;
+    margin-left: 90px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 4;
+}
+
+.sections1 {
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: transparent;
+    text-decoration: none;
+    position: fixed;
+    right: 20%;
+    z-index: 4;
+}
+
+.sections3 {
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: transparent;
+    text-decoration: none;
+    position: fixed;
+    right: 13%;
+    z-index: 4;
+}
+
+.sections4 {
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: transparent;
+    text-decoration: none;
+    position: fixed;
+    right: 6%;
+    z-index: 4;
+}
+
+.sections1:hover {
+    color: #7C78FB
+}
+
+.sections3:hover {
+    color: #7C78FB
+}
+
+.sections4:hover {
+    color: #7C78FB
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 120px;
+    height: 450px;
+}
+
+.aboutText {
+    margin-top: 150px;
+    z-index: 3;
+}
+
+
+.greeting {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.valeria {
+    font-family: 'Manrope', sans-serif;
+    color: #E4D668;
+    margin-left: 15px;
+}
+
+.frontend {
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.description {
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-weight: 200;
+    width: 37%;
+    margin-top: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    z-index: 3;
+}
+
+.button {
+    width: 170px;
+    display: flex;
+    background-color: #7C78FB;
+    font-family: 'Manrope', sans-serif;
+    color: #21232C;
+    font-size: 14px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+}
+
+.button2 {
+    width: 170px;
+    background-color: #7C78FB;
+    font-family: 'Manrope', sans-serif;
+    color: #21232C;
+    font-size: 14px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+.button2:hover {
+    color: #D9D9D9;
+}
+
+.button:hover {
+    background-color: #31333c;
+    color: #7C78FB;
+    box-shadow: 4px 4px 4px #21232C;
+}
+
+
+.education {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #5A55A2;
+    height: 950px;
+}
+
+.educationText {
+    display: flex;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    justify-content: center;
+    top: 800px;
+    margin-top: 200px;
+    background-color: #5A55A2;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.educationContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    margin-top: 80px;
+    z-index: 3;
+    justify-content: center;
+    background-color: #5A55A2;
+}
+
+.school-logo {
+    width: 25%;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.course-title {
+    background-color: transparent;
+}
+
+.school-date {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    gap: 5px;
+}
+
+.box1 {
+    height: 360px;
+    padding: 30px;
+    color: #D9D9D9;
+    font-family: 'Manrope', sans-serif;
+    justify-content: center;
+    background-color: #21232C;
+    border-radius: 30px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1:hover {
+    background-color: #31333c;
+    color: #D9D9D9;
+    box-shadow: 4px 4px 4px #21232C;
+}
+
+.box-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: transparent;
+    margin-top: 18px;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+.school {
+    width: 110px;
+    background-color: #7C78FB;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 12px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: none;
+}
+
+.date {
+    width: 110px;
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 12px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-color: #7C78FB;
+}
+
+.certificate {
+    width: 110px;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 12px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 5px;
+    /* border-color: #7C78FB; */
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #7C78FB;
+    text-align: center;
+    text-decoration: none;
+}
+
+.certificate:hover {
+    color: #7C78FB;
+}
+
+.course-description {
+    display: flex;
+    font-size: 12;
+    font-weight: 200;
+    background-color: transparent;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.skills-text {
+    display: flex;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 55px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+
+
+.skills1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #5A55A2;
+    color: #21232C;
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 15px;
+    width: 110px;
+    height: 110px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.js-logo {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.react-logo2 {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.skills-lang {
+    background-color: transparent;
+}
+
+.node-logo {
+    width: 55px;
+    height: 35px;
+    background-color: transparent;
+}
+
+.firebase-logo {
+    width: 29px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.jest-logo {
+    width: 29px;
+    height: 35px;
+    background-color: transparent;
+}
+
+.figma-logo {
+    width: 40px;
+    height: 34px;
+    background-color: transparent;
+}
+
+.elem4-2 {
+    position: absolute;
+    width: 15%;
+    margin-top: 120px;
+    left: 800px;
+    z-index: 3;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #21232C;
+    align-items: center;
+    gap: 50px;
+    padding: 80px;
+}
+
+.projects-text {
+    display: flex;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background-color: #21232C;
+}
+
+.projects-description {
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 17px;
+    font-weight: 200;
+    background-color: #21232C;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #31333c;
+    height: 580px;
+}
+
+.projects-container2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #21232C;
+    height: 580px;
+}
+
+.project-img {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.project-laptop {
+    width: 100%;
+    background-color: transparent;
+    margin-left: -20px;
+}
+
+.project-caption {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 17px;
+    font-weight: 200;
+    width: 70%;
+    padding: 50px;
+    margin-left: -80px;
+}
+
+.project-title {
+    background-color: transparent;
+}
+
+.project-description {
+    background-color: transparent;
+    font-weight: 100;
+}
+
+.project-technologies {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+li.project-technologies {
+    background-color: #31333c;
+}
+
+li.project-technologies2 {
+    background-color: #21232C;
+    font-weight: 100;
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+}
+
+.header2 {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #21232C;
+}
+
+.projects-page-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #21232C;
+}
+
+.projects-text2 {
+    display: flex;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background-color: #21232C;
+    justify-content: center;
+}
+
+.project-images {
+    width: 130%;
+    background-color: #31333c;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.project-images2 {
+    width: 900px;
+    background-color: #31333c;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.project-images3 {
+    width: 1000px;
+    background-color: #31333c;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tech-features {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #21232C;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #21232C;
+}
+
+.project-images-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #21232C;
+}
+
+
+.project-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #21232C;
+    gap: 40px;
+}
+
+.headerText2 {
+    height: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 10px;
+    margin-top: 40px;
+    justify-content: flex-end;
+    gap: 35px;
+    background-color: #21232C;
+}
+
+.logo2 {
+    height: 175px;
+    width: 200px;
+    margin-top: -40px;
+    margin-left: 90px;
+    background-color: #21232C;
+}
+
+.sections2 {
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 20px;
+    border: none;
+    background-color: #21232C;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.sections2:hover {
+    color: #7C78FB
+}
+
+.dark {
+    background-color: #21232C;
+}
+
+.date2 {
+    width: 170px;
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 12px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #7C78FB;
+    text-align: center;
+}
+
+.button-text {
+    color: #21232C;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.button-text2 {
+    color: #D9D9D9;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.button-text:hover {
+    color: #D9D9D9;
+}
+
+.button-text2 {
+    color: #D9D9D9;
+    background-color: transparent;
+}
+
+.button-text2:hover {
+    color: #7C78FB;
+}
+
+.projects2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #21232C;
+    align-items: center;
+    gap: 50px;
+    padding: 80px;
+}
+
+.footer {
+    height: 300px;
+    background-color: #31333c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+    background-color: transparent;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+.linkedin-logo {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.github-logo {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.mail-logo {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dark2 {
+    background-color: #31333c;
+}
+
+.social-text {
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.division-line {
+    height: 1px;
+    width: 80%;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    margin-bottom: -30px;
+}
+
+.credits {
+    background-color: transparent;
+}
+
+.credits-text {
+    font-family: 'Manrope', sans-serif;
+    color: #D9D9D9;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.hide {
+    display: none;
+}
